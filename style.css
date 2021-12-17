@@ -1,0 +1,69 @@
+h1{
+	color: rgb(0, 54, 205);
+	font-family: Georgia;
+	font-size: 50px;
+}
+h2{
+	color: rgb(0, 54, 205);
+	font-size: 30px;
+	font-family: Georgia;
+}
+body{
+	background: whitesmoke;
+	font-family: Times, sans-serif
+}
+
+a:hover {
+	color: rgb(0, 8, 128);
+	}
+
+p{font-family: Open sans, sans-serif;
+}
+img{
+	clip-path: ellipse(45% 40%);
+}
+
+.container{
+	margin: 80px, auto; /* will put 80px of margin everywhere */
+	text-align: center;
+	padding: 40px; /* will put 40px of padding everywhere */
+}
+
+@media	(max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+@media	(max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+	background: rgb(89, 222, 259);
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 1.0);
+	margin: 40px;
+}
+
+#photo-rond{
+	border-radius: 60%;
+}
+
+.btn-blue{
+	background-color: darkgrey;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: ghostwhite;
+}
+
+.list-inline ul{
+	display: inline;
+	padding-left: 10px;
+}
